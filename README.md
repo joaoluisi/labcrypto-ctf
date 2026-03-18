@@ -1,13 +1,17 @@
-# 🔐 Cryptobank CTF — Atividade de Criptografia
+# 🔐 CryptoBank CTF — Desafio de Criptografia
 
 ## 🎯 Objetivo
-Explorar falhas criptográficas em uma aplicação web simulando um ambiente financeiro.
+
+Você foi contratado como analista de segurança para investigar uma aplicação bancária chamada **CryptoBank**.
+
+Seu objetivo é identificar falhas de segurança — especialmente relacionadas à **criptografia mal implementada** — e capturar **4 flags escondidas no sistema**.
 
 ---
 
-## ⚙️ Setup
+## 🚀 Como executar o ambiente
 
-### 1. Clone o projeto
+### 1. Clone o repositório
+
 ```bash
-git clone https://github.com/SEU_USER/cryptobank-ctf.git
-cd cryptobank-ctf
+git clone https://github.com/joaoluisi/labcrypto-ctf.git
+cd labcrypto-ctf
