@@ -32,6 +32,9 @@ git clone https://github.com/joaoluisi/labcrypto-ctf.git
 cd labcrypto-ctf
 ```
 
+Crie o arquivo de variáveis de ambiente:
+cp .env.example .env
+
 ---
 
 ### 🔧 Subir o ambiente
