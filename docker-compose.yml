@@ -2,9 +2,7 @@ version: '3'
 
 services:
   cryptobank:
-    image: joaoeduluisi/labcrypto-ctf:v2
+    image: joaoeduluisi/labcrypto-ctf:v3
     ports:
       - "3000:5000"
-    env_file:
-      - .env
 
