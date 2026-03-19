@@ -2,6 +2,12 @@ version: '3'
 
 services:
   cryptobank:
-    image: joaoeduluisi/labcrypto-ctf:latest
+    image: joaoeduluisi/labcrypto-ctf:v2
     ports:
       - "3000:5000"
+    environment:
+      - FLAG1=flag{base64_is_not_crypto}
+      - FLAG2=flag{md5_is_broken}
+      - FLAG3=flag{tokens_can_be_forged}
+      - FLAG4=flag{crypto_fail_complete}
+
